@@ -1,0 +1,76 @@
+
+.boxsdw {
+	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .2), 0 0 30px rgba(0, 0, 0, 0.1) inset;
+	-moz-box-shadow: 0 0 10px rgba(0, 0, 0, .2), 0 0 30px rgba(0, 0, 0, 0.1) inset;
+	-moz-background-size:cover;
+	-webkit-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	box-shadow: 0 0 10px rgba(0, 0, 0, .2), 0 0 30px rgba(0, 0, 0, 0.1) inset;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	width: 60%;	
+	background-image: url(Sea_BG2.png); /*/filter:alpha(opacity=30);-moz-opacity:0.3;opacity:0.3; -khtml-opacity: 0.3; 圖片透明度*/
+	background-position: 0px;
+	background-repeat: no-repeat;
+	text-decoration: none;
+	text-align: center;
+	line-height: 100%;
+	padding-top: 2%;
+	padding-right: 1%;
+	padding-bottom: 3%;
+	padding-left: 1%;
+	margin-top: 1%;
+}
+
+#content {
+	font-family: "Noto Sans JP";
+	color: #000;
+	background-color: #FFFEFD;
+	display: block;
+	vertical-align: middle;
+	font-size: 12pt;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+
+}
+
+#start1 {
+	font-family: "文泉驛等寬微米黑", "文泉驛等寬正黑";
+	font-size: 8px;
+	color: #FFFFFF;
+	text-shadow: 0 0 0, 1px 0px 3px #000080,0px 2px 3px #000080,0px 0px 3px #FFF,0px 0px 3px #FFF,0px 0px 5px #FFF,0px 0px 3px #FFF,0px 0px 3px #FFF, 0px 0px 3px #000080;
+	margin-top: 5px;
+}
+
+#start5,#start7 {
+	font-family: "文泉驛等寬微米黑", "文泉驛等寬正黑";
+	font-size: 8px;
+	color: #FFFFFF;
+	text-shadow: 0 0 0, 2px 2px 2px #000000,0px 0px 4px #000,0px 2px 5px #AE00AE,0px 0px 3px #FFF,0px 0px 3px #FFF, 0px 0px 3px #AE0000;
+}
+
+
+
+#start2,#start6 {
+	font-size: 8px;
+	color: #333;
+	text-shadow: 0 0 0, 0px 0px 5px #fff, 0px 0px 5px #fff, 0px 0px 5px #fff, 0px 0px 5px #fff, 0px 0px 5px #fff;
+	font-weight: normal;
+	font-family: "Noto Sans JP";
+}
+
+
+#start3 {
+	color: #FFF;
+	text-align: center;
+	font-size: 5px;
+	font-family: "文泉驛等寬微米黑", "文泉驛等寬正黑";
+	text-shadow: 0 0 0, 0px 0px 5px #fff, 0px 0px 5px #000,0px 0px 5px #000, 0px 0px 3px #000;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+}

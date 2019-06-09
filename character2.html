@@ -1,0 +1,333 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/model.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>
+教職員
+</title>
+<!-- InstanceEndEditable -->
+
+<style type="text/css">
+/* 清空瀏覽器預設區塊大小 */
+{border:0,;margin: 0; padding: 0;}
+
+p
+  {white-space: pre-wrap;}
+  
+a{text-decoration:none}
+
+a:link {
+	color: #000000;
+} 
+
+a:visited {
+	color: #000000;
+}
+
+a:hover {
+	color: #FF0000;
+}  
+
+a:active {
+	color: #6666FF;
+}  
+
+#goTop {
+	position: fixed;
+	bottom: 5%; 
+	right: 3%; 
+	width: 40px; 
+	height: 40px;
+	opacity: 0.3; 
+	z-index: 10;
+	cursor: pointer;
+	transition: all .5s; 
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;}
+#goTop:hover { 
+opacity: 2;
+width: 50px; 
+height: 50px; 
+}
+
+ 
+</style>
+<link href="style.css" rel="stylesheet" type="text/css">
+<script src="jquery/jquery-latest.min.js" type="text/javascript"></script>
+<link href="cssmenu/styles.css "rel="stylesheet">
+<script src="cssmenu/script.js"  type="text/javascript"></script>
+<link rel="stylesheet" href="addbutton/buttons.css"> 
+<script type="text/javascript" src="addbutton/buttons.js"></script>
+<link href='dialog-box/dialog-box.css'
+rel='stylesheet'>
+<script type="text/javascript" src='dialog-box/dialog-box.js'></script>
+<script type="text/css" src="./fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+<script type="text/javascript" src="./fancybox/jquery.fancybox.js"></script>
+<link rel="stylesheet" type="text/css" href="./fancybox/jquery.fancybox.css" media="screen">
+<script type="text/javascript" src="./fancybox/helpers/jquery.fancybox-buttons.js"></script>
+<link rel="stylesheet" href="./fancybox/helpers/jquery.fancybox-buttons.css" type="text/css" media="screen">
+<script type="text/javaTemplateEndEditablescript" src="./fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+<script type="text/javascript" src="./fancybox/jquery.easing-1.3.pack.js"></script>
+<script type="text/javascript" src="./fancybox/helpers/jquery.fancybox-media.js"></script>
+<script type="text/javascript" src="./fancybox/helpers/jquery.fancybox-thumbs.js"></script>
+<link rel="stylesheet" href="./fancybox/helpers/jquery.fancybox-thumbs.css" type="text/css" media="screen">
+<script src="SpryAssets/SpryCollapsiblePanel.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+$(".fancyboxdiv").fancybox({
+padding: 2,
+fitToView: true,
+autoSize: true,
+scrolling: 'auto',
+afterLoad: function(){
+this.width = $(this.element).data("width");
+this.height = $(this.element).data("height");
+},
+});
+});
+</script>
+<script type="text/javascript">
+$(document).ready(function() {
+$(".fancybox").fancybox({
+padding: 0,
+margin: 0,
+fitToView: false,
+autoSize: false,
+afterLoad: function(){
+this.width = $(this.element).data("width");
+this.height = $(this.element).data("height");
+}
+});
+});
+
+</script>
+
+</head>
+<body>
+<img id="goTop" src="arrows.png" alt="Back to Top">
+<script type="text/javascript">
+$.extend($.easing, {
+easeOutExpo: function (x, t, b, c, d) {
+return (t==d) ? b+c : c * (-Math.pow(2, -10 * t/d) + 1) + b;
+}
+});
+$("#goTop").click(function(){
+$("html, body").animate({scrollTop: 0}, 1000, "easeOutExpo");
+});
+</script>
+ <div id='cssmenu'>
+<ul>
+   <li><a href='index.htm'><span class="one">CROSSROADS</span><span class="two">　　揭　幕　　</span></a></li>
+   <li class='has-sub'><a href=''><span class="one">CHARACTERS</span><span class="two">　登 場 人 物　</span></a>
+      <ul>
+        <li class='has-sub'><a href='character.html'>　學 生　</a>
+             <ul>
+               <li><a href='character.html#kaoru'>九条 薫</a></li>
+               <li><a href='character.html#aoi'>九条 葵</a></li> 
+               <li><a href='character.html#kei'>角井 蛍</a></li>
+               <li><a href='character.html#yoko'>川中 葉子</a></li>
+               <li><a href='character.html#chiaki'>海音寺</a></li>
+            </ul>
+       </li>
+        <li class='has-sub'><a href='character2.html'>　教 職 員　</a>
+             <ul>
+               <li><a href='character2.html#Komamura'>駒村</a></li>
+               <li><a href='character2.html#hibiki'>黑須</a></li> 
+               <li><a href='character2.html#sakuma'>佐久間</a></li>
+               <li><a href='character2.html#Kokuba'>國場</a></li>
+               <li><a href='character2.html#yuu'>香月</a></li>
+            </ul>        
+        </li>
+        <li class='has-sub'><a href='character3.html'>　其 他　</a>
+           <ul>
+               <li><a href='character3.html#kroos'>克洛斯</a></li>
+               <li><a href='character3.html#tori'>刀利</a></li> 
+               <li><a href='character3.html#cross'>CROSS</a></li>
+          </ul>        
+        </li>
+   </ul>
+</li>
+     <li class='has-sub'><a href='01.html'><span class="one">　第 一 幕　</span><span class="two">　前　夕　</span></a>
+      <ul>
+        <li class='has-parent'><a href='01.html#CH101'><span class="one">　　 1.1　　</span><span class="two">　登　場　　</span></a></li>
+        <li class='has-parent'><a href='01.html#CH102'><span class="one">　　 1.2　　</span><span class="two">　虛 偽 與 藉 口　　</span></a></li>
+        <li class='has-parent'><a href='01.html#CH103'><span class="one">　　 1.3　　</span><span class="two">　雙　子　　</span></a></li>
+        <li class='has-parent'><a href='01.html#CH104'><span class="one">　　 1.4　　</span><span class="two">　偵 探 遊 戲 Ⅰ　　</span></a></li>
+        <li class='has-parent'><a href='01.html#CH105'><span class="one">　　 1.5　　</span><span class="two">　窺 看 內 心　　</span></a></li>
+        <li class='has-parent'><a href='01.html#CH106'><span class="one">　　 1.6　　</span><span class="two">　衝　突　　</span></a></li>
+        <li class='has-parent'><a href='01.html#CH107'><span class="one">　　 1.7　　</span><span class="two">　善 後 處 理　　</span></a></li>
+        <li class='has-parent'><a href='01.html#CH108'><span class="one">　　 1.8　　</span><span class="two">　幸 福 的 交 流　　</span></a></li>
+        <li class='has-parent'><a href='01.html#CH109'><span class="one">　　 1.9　　</span><span class="two">　偵 探 遊 戲 Ⅱ　　</span></a></li>
+        <li class='has-parent'><a href='01.html#CH110'><span class="one">　　 1.10　　</span><span class="two">　言 歸 於 好　　</span></a></li>
+        <li class='has-sub'><a href='01.html#CH111'><span class="one">　 　1.11　　</span><span class="two">　抉　擇　　</span></a>
+             <ul>
+               <li><a href='01-A.html'><span class="one">　 　1.A　　</span><span class="two">　簡 單 的 快 樂　　</span></a></li>
+               <li><a href='01-B.html'><span class="one">　 　1.B　　</span><span class="two">　默 默 守 護　　</span></a></li> 
+            </ul>
+     </li>
+     </ul>
+ </li>
+     <li class='has-sub'><a href='02.html'><span class="one">　第 二 幕　</span><span class="two">　暴 風 雨　</span></a>
+      <ul>
+         <li class='has-parent'><a href='02.html#CH201'><span class="one">　　2.1　　</span><span class="two">　自 私 自 利　　</span></a></li>
+         <li class='has-parent'><a href='02.html#CH202'><span class="one">　　2.2　　</span><span class="two">　片 刻 平 靜　　</span></a></li>
+         <li class='has-sub'><a href='02.html#CH203'><span class="one">　　2.3　　</span><span class="two">　機 會 稍 縱 即 逝　　</span></a>
+             <ul>
+               <li><a href='02-A.html'>　　2A</a></li>
+               <li class='has-sub'><a href='02-B.html'>　　2B</a>
+                   <ul>
+                     <li><a href='02-A.html'><span class="one">　　2B-1　　</span><span class="two">　　迷　夢　　</span></a></li>
+                     <li><a href='02-B2.html'><span class="one">　　2B-2　　</span><span class="two">　　交　替　　</span></a></li>
+                  </ul>
+ 
+             </li></ul>
+      </li></ul>
+   </li><li class='has-sub'><a href='03.html'><span class="one">　第 三 幕　</span><span class="two">　鐮　鼬　</span></a>
+      <ul>
+         <li class='has-parent'><a href='03.html#CH301'><span class="one">　　3.1　　</span><span class="two">　重　返</span></a>
+         </li><li class='has-sub'><a href='03.html#CH302'><span class="one">　　3.2　　</span><span class="two">　真 實 Ⅰ 不感興趣的身世之謎</span></a>
+             <ul>
+               <li><a href='03-A.html'><span class="one">　　3A　　</span><span class="two">　　懊　悔</span></a></li>
+               <li><a href='03-B.html'><span class="one">　　3B　　</span><span class="two">　　無 效 攻 擊</span></a></li> 
+             </ul>
+      </li></ul>
+   </li><li class='has-sub'><a href='04.html'><span class="one">　第 四 幕　</span><span class="two">　解　明　</span></a>
+      <ul>
+         <li class='has-sub'><a href='04.html#CH401'><span class="one">　　4.1　　</span><span class="two">　 誤 打 誤 撞</span></a>
+             <ul>
+               <li class='has-parent'><a href='04-A.html'><span class="one">　　4A　　</span><span class="two">　絕 對 任 性</span></a></li>
+               <li class='has-sub'><a href='04-B.html'><span class="one">　　4B　　</span><span class="two">　挺 身 保 護</span></a>
+                 <ul>
+                    <li><a href='04-B1.html#CH401'><span class="one">　　4B-1　　</span><span class="two">　逆　流　</span></a></li> 
+                    <li><a href='04-B1.html#CH402'><span class="one">　　4B-2　　</span><span class="two">　久 違 的 寧 靜</span></a></li>
+                    <li><a href='04-B1.html#CH403'><span class="one">　　4B-3　　</span><span class="two">　真 實 Ⅱ 攻略與意識海</span></a></li> 
+                    <li><a href='04-B1.html#CH404'><span class="one">　　4B-4　　</span><span class="two">　五 年 份 的 存 糧</span></a></li> 
+                    <li><a href='04-B1.html#CH405'><span class="one">　　4B-5　　</span><span class="two">　火　災</span></a></li>
+                    <li><a href='04-B1.html#CH406'><span class="one">　　4B-6　　</span><span class="two">　遙 遠 的 天 空</span></a></li>
+                    <li><a href='04-B1.html#CH407'><span class="one">　　4B-7　　</span><span class="two">　未 知 的 Ｋ</span></a></li> 
+                </ul>
+      </li></ul>               
+      </li></ul>
+   </li><li class='has-sub'><a href='05.html'><span class="one">　第 五 幕　</span><span class="two">　源 遠 流 長　</span></a>
+      <ul>
+         <li class='has-parent'><a href='05.html#CH501'><span class="one">　　5.1　　</span><span class="two">　無 心 之 過　　</span></a> 
+         </li><li class='has-parent'><a href='05.html#CH502'><span class="one">　　5.2　　</span><span class="two">　真 實 Ⅲ　　根　源</span></a> 
+         </li><li class='has-parent'><a href='05.html#CH503'><span class="one">　　5.3　　</span><span class="two">　無 敵 星 星</span></a> 
+         </li><li class='has-sub'><a href='05.html#CH504'><span class="one">　　5.4　　</span><span class="two">　同 學 會</span></a> 
+            <ul>
+               <li><a href='05-A.html'>　　5A　　</a></li>
+               <li><a href='05-B.html'>　　5B　　</a></li> 
+           </ul>
+      </li></ul>
+   </li><li class='has-sub'><a href='BN_LIST.html'><span class="one">BONUS I</span><span class="two">　附 加  I </span></a>
+        <ul>
+        <li><a href='bn02.html'><span class="one">　茜いろの空（未完）</span><span class="two">　Bloody Mary</span></a></li> 
+         <li><a href='bn03.html'><span class="one">　Mission start</span><span class="two">　秘密任務持續中</span></a></li>
+        <li><a href='bn01.html'><span class="one">　四月一日老師是</span><span class="two">　少女們的夥伴</span></a></li> 
+
+                  <li><a href='suku01.html'><span class="one">　KUROSU與化妝師</span><span class="two">　兩個人格分別戀愛</span></a></li>
+         <li><a href='suku02.html'><span class="one">　La fleur blanche</span><span class="two">　專家級初學者</span></a></li>
+            <li><a href='http://dl.dropbox.com/s/rn74p3e2olysxza/CRS_familytree.png'target = "_blank" ><span class="one">　Family tree</span><span class="two">　主要家族譜系（劇透）</span></a></li>
+          <li><a href='bn05.html'>　夫妻相性（九条）</a></li>
+            
+            </ul>
+         <li class='has-sub'><a href='BN_LIST.html'><span class="one">BONUS II </span><span class="two">　附 加 I I </span></a>
+        <ul>
+        <li><a href='bn11.html'><span class="one">　会いたい</span><span class="two">　掛心之人      </span></a></li>
+         <li><a href='bn10.html'><span class="one">　從今以後，近在咫尺</span><span class="two">　ストーカーの純情</span></a></li>
+         <li><a href='bn07.html'><span class="one">　溫泉旅行</span><span class="two">　微妙少女心</span></a></li>
+         <li><a href='bn08.html'><span class="one">　御年玉</span><span class="two">　壓歲錢</span></a></li>
+         <li><a href='bn04.html'><span class="one">　夜明之前</span><span class="two">　謝謝妳在我身邊</span></a></li>
+         <li><a href='bn0514.html'><span class="one">　返答する</span><span class="two">　回答</span></a></li>
+
+         <li><a href='bn06.html'>　夫妻相性（香海）</a></li>
+      
+
+            </ul>
+
+   </li><li class='has-sub'><a href='#'><span class="one">　聯 絡</span><span class="two">　邑(YI)</span></a>
+        <ul>
+         <li><a href='mailto:yuiazumoe@gmail.com'><span class="one">　Email</span><span class="two">　信 箱</span></a></li> 
+         <li><a href='http://www.plurk.com/YUIAZUMOE'target="_blank"><span class="one">　Plurk</span><span class="two">　噗 浪</span></a></li>
+          <li><a href='http://twitter.com/yuiazu_moe'target="_blank"><span class="one">　Twitter</span><span class="two">　推 特</span></a></li>
+           </ul>
+      </li>
+</ul>
+</div>
+
+<!-- InstanceBeginEditable name="content" -->
+
+<div id="content">
+<div id="boxsdw1"><a name="komamura" id="komamura"></a>
+<div id="character_content"><pre>
+
+
+<strong>駒村</strong>
+　1年A班前任導師，教化學。
+　愛用高科技產品。
+　獨居，擁有屬於自己的時尚洋房。
+
+
+<a name="hibiki" id="hibiki"></a>
+
+
+
+
+<strong>黑須</strong>
+　1年A班現任導師，教古文。
+　臉上化超濃的妝，被學生戲稱為克勞薩。
+　駒村在學時的後輩，曾與他有一段情。
+　跟教務主任為親戚，本人時常忘記這層關係。
+　患有解離性人格疾患。
+
+
+
+<br><a name="sakuma" id="sakuma"></a>
+
+
+
+
+<strong>佐久間</strong>
+　1年C班導師，高中部年資最高的老師。
+　非常關心愛護學生，也因此倍受愛戴。
+　正滿心期待孫女的出生。
+
+
+<a name="Kokuba" id="Kokuba"></a>
+
+
+
+
+<strong>國場</strong>
+　高中部體育老師。
+　偶爾會在排球社教練團同意下幫忙指導社員。
+　身材健壯如熊，長相正氣凜然，讓人很有安全感。
+
+<a name="yuu" id="yuu"></a>
+
+
+
+<strong>香月</strong>
+　高中部保健醫，原為加茂縣立綜合醫院的外科醫師。
+　由於跟她談話後，事情常會出現奇妙的轉機，
+　學生十分喜歡找她咨詢問題。
+
+
+
+
+</pre>
+</div></div></div>
+
+<!-- InstanceEndEditable --></body>
+
+
+
+
+
+<!-- InstanceEnd --></html>
+
