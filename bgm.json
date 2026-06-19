@@ -18,8 +18,16 @@
       "name": "和平線：A Peaceful World"
     },
     {
-      "file": "DR01_Drop of Rain_V3.mp3",
-      "name": "Drop of Rain印象曲"
+      "file": "DR01_Drop of Rain_Byleth side.mp3",
+      "name": "雨天的客人‧邂逅 Byleth side"
+    },
+    {
+      "file": "DR01_Drop of Rain_Edelgard side.mp3",
+      "name": "雨天的客人‧邂逅 Edelgard side"
+    },
+    {
+      "file": "DR01_Drop of Rain_shift.mp3",
+      "name": "雨天的客人‧共戰"
     }
   ]
 }
