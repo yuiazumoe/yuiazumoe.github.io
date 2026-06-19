@@ -2,6 +2,10 @@
   "baseUrl": "http://yuiazumoe.net/",
   "tracks": [
     {
+      "file": "RE01_Princess and Witch_ Uncontrollable Love.mp3",
+      "name": "公主線：Uncontrollable Love"
+    },
+    {
       "file": "RE01_Princess and Witch_V2.mp3",
       "name": "公主線：Princess and Witch"
     },
