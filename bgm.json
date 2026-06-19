@@ -1,0 +1,25 @@
+{
+  "baseUrl": "http://yuiazumoe.net/",
+  "tracks": [
+    {
+      "file": "RE01_Princess and Witch_V2.mp3",
+      "name": "公主線：Princess and Witch"
+    },
+    {
+      "file": "RE02_Elegant Duel.mp3",
+      "name": "女王線：Elegant Duel"
+    },
+    {
+      "file": "RE03_Code Ashen Demon.mp3",
+      "name": "傭兵線：Code Ashen Demon"
+    },
+    {
+      "file": "RE04_A peaceful world.mp3",
+      "name": "和平線：A Peaceful World"
+    },
+    {
+      "file": "DR01_Drop of Rain_V3.mp3",
+      "name": "Drop of Rain印象曲"
+    }
+  ]
+}
