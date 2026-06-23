@@ -1,0 +1,37 @@
+{
+  "baseUrl": "http://yuiazumoe.net/",
+  "tracks": [
+    {
+      "file": "ROYAL EMBLEM_01_Uncontrollable Love.mp3",
+      "name": "公主線：Uncontrollable Love"
+    },
+    {
+      "file": "ROYAL EMBLEM_01_Princess and Witch.mp3",
+      "name": "公主線：Princess and Witch"
+    },
+    {
+      "file": "ROYAL EMBLEM_02_Elegant Duel.mp3.mp3",
+      "name": "女王線：Elegant Duel"
+    },
+    {
+      "file": "ROYAL EMBLEM_03_I Lead You Home.mp3",
+      "name": "傭兵線：I Lead You Home"
+    },
+    {
+      "file": "ROYAL EMBLEM_04_Sparkling Days.mp3",
+      "name": "和平線：Sparkling Days"
+    },
+    {
+      "file": "Drops of Rain_01_The Day I Met You_Edelgard side.mp3",
+      "name": "雨天的客人：相遇之日 Edelgard side"
+    },
+    {
+      "file": "Drops of Rain_01_The Day I Met You_Byleth side.mp3",
+      "name": "雨天的客人：相遇之日 Byleth side"
+    },
+    {
+      "file": "Drops of Rain_01_Against All, Together.mp3",
+      "name": "雨天的客人：Against All, Together"
+    }
+  ]
+}
